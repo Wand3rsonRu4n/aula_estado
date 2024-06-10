@@ -256,10 +256,13 @@ class SearchField extends StatelessWidget {
             children: const [
               Icon(Icons.search),
               SizedBox(width: 6.0),
-              Text(
-                "Pesquisar",
-                style: TextStyle(
-                  color: Colors.black38,
+              Expanded(
+                child: TextField(
+                  decoration: InputDecoration(
+                    hintText: "Pesquisar",
+                    border: InputBorder.none,
+                    hintStyle: TextStyle(color: Colors.black38),
+                  ),
                 ),
               ),
             ],

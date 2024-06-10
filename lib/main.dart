@@ -1,6 +1,6 @@
 import 'package:aula_estado/model/onboarding_model.dart';
+import 'package:aula_estado/screens/authentication/login.dart';
 import 'package:flutter/material.dart';
-import 'package:aula_estado/screens/splash/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'CALANGO',
-      home: SplashScreen(),
+      home: LoginScreen(),
     );
   }
 }
