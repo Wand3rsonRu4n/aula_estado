@@ -190,7 +190,7 @@ class ProductPrice extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
-      "\BRL$price",
+      "R\$$price",
       style: Theme.of(context).textTheme.titleSmall,
     );
   }

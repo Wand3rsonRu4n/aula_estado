@@ -46,22 +46,22 @@ class _SizeContainerState extends State<SizeContainer> {
 class SizeData {
   static List<SizeModel> sizeData = [
     SizeModel(
-      indicator: "P",
+      indicator: "36",
       sizeName: "36",
       isAvailable: true,
     ),
     SizeModel(
-      indicator: "M",
+      indicator: "38",
       sizeName: "38",
       isAvailable: true,
     ),
     SizeModel(
-      indicator: "G",
+      indicator: "40",
       sizeName: "40",
       isAvailable: true,
     ),
     SizeModel(
-      indicator: "GG",
+      indicator: "42",
       sizeName: "42+",
       isAvailable: true,
     ),

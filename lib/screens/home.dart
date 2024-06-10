@@ -97,16 +97,6 @@ class _HomeScreenState extends State<HomeScreen> {
             fontWeight: FontWeight.w400,
           ),
         ),
-        actions: const [
-          Padding(
-            padding: EdgeInsets.only(
-              right: 14,
-            ),
-            child: Icon(
-              Icons.shopping_bag_sharp,
-            ),
-          ),
-        ],
       ),
       body: Column(
         children: [

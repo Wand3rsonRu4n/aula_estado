@@ -36,7 +36,7 @@ class _LayoutScreenState extends State<LayoutScreen> {
             label: "",
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.search),
+            icon: Icon(Icons.shopping_cart),
             label: "",
           ),
           BottomNavigationBarItem(

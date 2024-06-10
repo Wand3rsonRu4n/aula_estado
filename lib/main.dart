@@ -1,4 +1,4 @@
-import 'package:aula_estado/constants/theme.dart';
+import 'package:aula_estado/model/onboarding_model.dart';
 import 'package:flutter/material.dart';
 import 'package:aula_estado/screens/splash/splash.dart';
 
@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'CALANGO',
-      theme: ProjectTheme.themeData,
       home: SplashScreen(),
     );
   }

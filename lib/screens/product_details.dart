@@ -44,7 +44,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
               right: 14,
             ),
             child: Icon(
-              Icons.shopping_bag_sharp,
+              Icons.shopping_cart,
             ),
           ),
         ],
@@ -79,7 +79,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                   style: Theme.of(context).textTheme.titleSmall,
                 ),
                 ReadMoreText(
-                  "Tênis Nike Air Max ",
+                  "Inspirado no Flyknit Racer 2012, o cabedal leve, justo e quase sem costuras é tão revolucionário quanto bonito. ",
                   trimLines: 4,
                   colorClickableText: kPrimaryColor,
                   trimMode: TrimMode.Line,
@@ -120,7 +120,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text(
-                "\BRL${widget.product.productPrice}",
+                "R\$${widget.product.productPrice}",
                 style: Theme.of(context).textTheme.titleMedium,
               ),
               ElevatedButton(
