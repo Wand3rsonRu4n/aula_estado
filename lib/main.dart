@@ -1,5 +1,6 @@
 import 'package:aula_estado/model/onboarding_model.dart';
 import 'package:aula_estado/screens/authentication/login.dart';
+import 'package:aula_estado/screens/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {

@@ -87,7 +87,6 @@ class _HomeScreenState extends State<HomeScreen> {
         toolbarHeight: 75,
         leading: Padding(
           padding: EdgeInsets.only(left: 14.0),
-          child: Icon(Icons.menu),
         ),
         centerTitle: true,
         title: Text(
